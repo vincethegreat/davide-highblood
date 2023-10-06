@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cordova Database App</title>
+</head>
+<body>
+    <h1>Data Input</h1>
+    <input type="text" id="input1" placeholder="Input 1">
+    <input type="text" id="input2" placeholder="Input 2">
+    <input type="text" id="input3" placeholder="Input 3">
+    <input type="text" id="input4" placeholder="Input 4">
+    <button onclick="saveData()">Save</button>
+
+    <h1>Stored Data</h1>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Input 1</th>
+                <th>Input 2</th>
+                <th>Input 3</th>
+                <th>Input 4</th>
+            </tr>
+        </thead>
+        <tbody id="dataBody">
+            <!-- Data will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
